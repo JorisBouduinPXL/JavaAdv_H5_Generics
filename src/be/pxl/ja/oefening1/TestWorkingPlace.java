@@ -6,5 +6,7 @@ public class TestWorkingPlace {
 		Car car = new Car();
 		CircularSaw circularSaw = new CircularSaw();
 		Bike bike = new Bike();
+
+
 	}
 }

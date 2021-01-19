@@ -1,6 +1,8 @@
 package be.pxl.ja.oefening1;
 
-public class WorkingPlace<T> {
+public class WorkingPlace<T extends Vehicle> implements Motorized {  // enkel vehicle die motorized
+//	public class WorkingPlace<T> implements Motorized { // enkel motorized
+//	public class WorkingPlace<T extends Vehicle> {      // enkel vehicle
 
 	private T thingToFix;
 	private int numberOfThingsFixed = 0;

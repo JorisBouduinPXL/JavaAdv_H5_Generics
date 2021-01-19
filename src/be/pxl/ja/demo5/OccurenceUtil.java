@@ -17,7 +17,7 @@ public class OccurenceUtil {
 	public static <T extends Comparable<T>> int countSmaller(List<T> items, T item) {
 		int countSmaller = 0;
 		for (T anItem : items) {
-			if (anItem.compareTo(item) < 0) {
+			if (anItem.compareTo(item) <= 0) {
 				countSmaller++;
 			}
 		}
